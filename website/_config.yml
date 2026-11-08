@@ -1,7 +1,7 @@
 # Site Configuration
 title: "现代 C++ 教程: 高速上手 C++11 到 C++26"
 subtitle: C++11 to C++26 On the Fly
-description: "欧长坤"
+description: "现代 C++ 教程：高速上手 C++11 到 C++26 | Modern C++ Tutorial: C++11 to C++26 On the Fly"
 author: 欧长坤
 email: hi[at]changkun.de
 language: zh-CN
@@ -31,6 +31,11 @@ highlight:
   enable: true
   line_number: false
   tab_replace:
+  # Plain <pre><code> with highlight.js class names (hljs-keyword, …) instead
+  # of the table-wrapped figure; the theme styles these and adds a label and
+  # a copy button around each block.
+  wrap: false
+  hljs: true
 toc:
   maxdepth: 3
   class: toc
@@ -69,3 +74,7 @@ marked:
   breaks: false
   smartLists: true
   smartypants: false
+  # hexo-renderer-marked 6+ prepends the site root to relative image paths
+  # by default, which turns the book's ../../assets/... figures into a broken
+  # /../../assets/... absolute path. Keep the original relative paths.
+  prependRoot: false

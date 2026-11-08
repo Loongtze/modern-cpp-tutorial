@@ -1,0 +1,27 @@
+<%
+  var ui = mcpp_ui(page);
+  var isIndex = mcpp_is_index(page);
+  var chapter = mcpp_chapter(page.title);
+%>
+<header class="topbar">
+  <% if (!isIndex) { %>
+  <button class="menu-btn" type="button" aria-label="<%- ui.menu %>" aria-controls="sidebar" aria-expanded="false"><span></span></button>
+  <% } %>
+  <a class="brand" href="<%- url_for(ui.home) %>"><%- ui.site %></a>
+  <div class="crumbs">
+    <% if (!isIndex && page.title) { %>
+      <span class="crumbs-sep" aria-hidden="true">/</span>
+      <% if (chapter.label) { %><span class="crumbs-label"><%- chapter.label %></span><% } %>
+      <span class="crumbs-name"><%- chapter.name %></span>
+    <% } %>
+  </div>
+  <nav class="topbar-tools">
+    <a class="tool-text" href="<%- url_for('/modern-cpp/' + ui.pdfFile) %>" title="<%- ui.downloadPdf %>"><%- ui.pdf %></a>
+    <a class="tool-text" href="<%- mcpp_repo() %>">GitHub</a>
+    <a class="tool-btn" href="<%- url_for(mcpp_other_href(page)) %>" hreflang="<%- ui.otherPref === 'zh' ? 'zh-CN' : 'en' %>" title="<%- ui.otherTitle %>" onclick="try{localStorage.setItem('mcpp-lang','<%- ui.otherPref %>')}catch(e){}"><%- ui.other %></a>
+    <button class="tool-btn theme-btn" type="button" aria-label="<%- ui.theme %>" title="<%- ui.theme %>">
+      <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+      <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="5"/><path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42"/></g></svg>
+    </button>
+  </nav>
+</header>

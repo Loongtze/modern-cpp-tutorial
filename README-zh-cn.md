@@ -1,4 +1,4 @@
-<img src="assets/cover-2nd.png" alt="logo" height="550" align="right" />
+<img src="assets/cover-zh.png" alt="logo" height="550" align="right" />
 
 # 现代 C++ 教程：高速上手 C++11 到 C++26
 
@@ -6,7 +6,7 @@
 
 ## 本书目的
 
-本书号称『高速上手』，从内容上对二十一世纪二十年代之前产生 C++ 的相关特性做了非常相对全面的介绍，读者可以自行根据下面的目录选取感兴趣的内容进行学习，快速熟悉需要了解的内容。这些特性并不需要全部掌握，只需针对自己的使用需求和特定的应用场景，学习、查阅最适合自己的新特性即可。
+本书号称『高速上手』，从内容上对现代 C++（从 C++11 到 C++26）的相关特性做了相对全面的介绍，读者可以自行根据下面的目录选取感兴趣的内容进行学习，快速熟悉需要了解的内容。这些特性并不需要全部掌握，只需针对自己的使用需求和特定的应用场景，学习、查阅最适合自己的新特性即可。
 
 同时，本书在介绍这些特性的过程中，尽可能简单明了的介绍了这些特性产生的历史背景和技术需求，这为理解这些特性、运用这些特性提供了很大的帮助。
 
@@ -49,13 +49,6 @@ $ make build
 ## 致谢
 
 笔者时间和水平有限，如果读者发现书中内容的错误，欢迎提 [Issue](https://github.com/changkun/modern-cpp-tutorial/issues)，或者直接提 [Pull request](https://github.com/changkun/modern-cpp-tutorial/pulls)。详细贡献指南请参考[如何参与贡献](CONTRIBUTING.md)，由衷感谢每一位指出本书中出现错误的读者，包括但不限于 [Contributors](https://github.com/changkun/modern-cpp-tutorial/graphs/contributors)。
-
-<p>本项目还由以下产品提供赞助支持：</p>
-<p>
-  <a href="https://www.digitalocean.com/?refcode=834a3bbc951b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
-  </a>
-</p>
 
 ## 许可
 

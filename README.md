@@ -1,11 +1,11 @@
-<img src="assets/cover-2nd-en.png" alt="logo" height="550" align="right" />
+<img src="assets/cover-en.png" alt="logo" height="550" align="right" />
 
 # Modern C++ Tutorial: C++11 to C++26 On the Fly
 
 [![](https://img.shields.io/github/actions/workflow/status/changkun/modern-cpp-tutorial/website.yml?branch=master&style=flat-square)](https://github.com/changkun/modern-cpp-tutorial/actions/workflows/website.yml) [![](https://img.shields.io/badge/language-English-blue.svg?style=flat-square)](./README.md) [![](https://img.shields.io/badge/language-简体中文-red.svg?style=flat-square)](./README-zh-cn.md) [![](https://img.shields.io/badge/€-donate-ff69b4.svg?style=flat-square)](./assets/donate.md)
 ## Purpose
 
-The book claims to be "On the Fly". Its intent is to provide a comprehensive introduction to the relevant features regarding modern C++ (before 2020s).
+The book claims to be "On the Fly". Its intent is to provide a comprehensive introduction to the relevant features of modern C++ (from C++11 through C++26).
 Readers can choose interesting content according to the following table of content to learn and quickly familiarize the new features you would like to learn.
 Readers should be aware that not all of these features are required. Instead, it should be learned when you really need it.
 
@@ -55,13 +55,6 @@ This book was originally written in Chinese by [Changkun Ou](https://changkun.de
 The author has limited time and language skills. If readers find any mistakes in the book or any language improvements, please feel free to open an [Issue](https://github.com/changkun/modern-cpp-tutorial/issues) or start a [Pull request](https://github.com/changkun/modern-cpp-tutorial/pulls). For detailed guidelines and checklist, please refer to [How to contribute](CONTRIBUTING.md).
 
 The author is grateful to all contributors, including but not limited to [Contributors](https://github.com/changkun/modern-cpp-tutorial/graphs/contributors).
-
-<p>This project is also supported by:</p>
-<p>
-  <a href="https://www.digitalocean.com/?refcode=834a3bbc951b&utm_campaign=Referral_Invite&utm_medium=Referral_Program&utm_source=CopyPaste">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/SVG/DO_Logo_horizontal_blue.svg" width="201px">
-  </a>
-</p>
 
 ## Licenses
 
